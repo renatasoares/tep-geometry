@@ -4,7 +4,7 @@
 
 using namespace std;
 
-double equals(double x, double y) {
+bool equals(double x, double y) {
 	return fabs(x - y) < EPS;
 }
 
